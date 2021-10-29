@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body align="center">
+  <table align="center" border="1">
+    <tr>
+      <td width="100">이미지 경로</td>
+      <td width="400"><span th:text="${imagePath}"></span></td>
+    </tr>
+    <tr>
+      <td width="100">이미지</td>
+      <td width="400"><img style="margin: 10px" th:src="${imageFile}"></td>
+    </tr>
+  </table>
+</body>
+</html>
